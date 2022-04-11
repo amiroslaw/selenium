@@ -1,0 +1,13 @@
+== Selenium util
+
+Tool for fetching information from a website. It uses Selenium. Available options:
+
+* -h → show help
+* inpost parcel_number → get information form inpost about your shipment
+* yahoo → get api key for yahoo finance
+
+In order to execute the application you have to create file "credentials" with following structure:
+
+`website_name|website_url|login|password`
+
+Login and password are optional in some websites.
